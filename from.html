@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+</head>
+<body>
+    <form action="http://blackgoosebistro.com/pizza.php" method="POST"></from>
+        <h1 style="font-size: 20px;">Black Goose Bistro | Pizza on Demand</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit dolorem obcaecati veniam, possimus quasi praesentium earum deleniti adipisci. Earum quisquam voluptatum sunt cupiditate totam pariatur quas laborum obcaecati officia magnam.</p>
+        <fieldset>
+            <legend>Your Informasi</legend>
+        
+            <div>
+                <label for="input-name">Name:</label>
+                <input id="input-name" type="text" name="customername">
+            </div>
+            <!-------->
+            <div>
+                <label for="input-address">Address :</label>
+                <input id="input-address" type="text" name="address">
+            </div>
+            <!-------->
+            <div>
+                <label for="input-telphone-number">Telphone Number :</label>
+                <input id="input-telphone-number" type="text" name="Telphone">
+            </div>
+            <!-------->
+            <div>
+                <label for="input-email">Email :</label>
+                <input id="input-email" type="email" name="email">
+            </div>
+            <!------->
+            <div>
+                <label for="input-delivery-instruction">Delivery Instructuon</label>
+                <br>
+                <textarea id="input-delivery-instruction" name="instructuon" cols="30" rows="10" maxlength="400"></textarea>
+            </div>
+            <!-------->
+        </fieldset>
+        <fieldset>
+            <legend><b>Design Your Drame Pizza</b></legend>
+            <p>Pizza Specs</p>
+
+            <fieldset>
+                <legend>Curst (Choose One)</legend>
+
+                <div>
+                    <input id="classic-white" type="radio" name="curst" value="Classic White">
+                    <label for="classic-white">Classic White</label>
+                </div>
+                <div>
+                    <input id="multigrain" type="radio" name="curst" value="Multigrain">
+                    <label for="multigrain">Multigrain</label>
+                </div>
+                <div>
+                    <input id="cheese-stuffed-crust" type="radio" name="curst" value="Cheese Stuffed Crust">
+                    <label for="cheese-stuffed-crust">Cheese Stuffed Crust</label>
+                </div>
+                <div>
+                    <input id="gluten-free" type="radio" name="crust" value="Gluten-Free">
+                    <label for="gluten-free">Gluten-Free</label>
+                </div>
+            </fieldset>
+            <!-------->
+        </fieldset>
+        <fieldset>
+            <legend>Toppings (Choose as many as you want) :</legend>
+
+            <div>
+                <input id="red-sauce" type="checkbox" name="topings[]" value="resd-sauce" checked>
+                <label for="red-sauce">Red Sauce</label>
+            </div>
+            <div>
+                <input id="white-sauce" type="checkbox" name="topings[]" value="white-sauce">
+                <label for="white-sauce">White Sauce</label>
+            </div>
+            <div>
+                <input id="mozzarella-cheese" type="checkbox" name="topings[]" value="mozzarella-cheese">
+                <label for="mozzarella-cheese">mozzarella Cheese</label>
+            </div>
+            <div>
+                <input id="pepperoni" type="checkbox" name="toppings[]" value="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+            </div>
+            <div>
+                <input id="mushrooms" type="checkbox" name="toppings[]" value="mushrooms">
+                <label for="mushrooms">Mushrooms</label>
+            </div>
+            <div>
+                <input id="peppers" type="checkbox" name="toppings[]" value="peppers">
+                <label for="peppers">Peppers</label>
+            </div>
+            <div>
+                <input id="anchovies" type="checkbox" name="toppings[]" value="anchovies">
+                <label for="anchovies">Anchovies</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Number</legend>
+            <div>
+                <label for="how-manny-pizzas">How Manny Pizzas</label>
+                <select id="how-manny-pizzas" name="pizzas">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Bring ma a pizza">
+        <input type="reset" value="reset">
+    </from>
+</body>
+</html>
